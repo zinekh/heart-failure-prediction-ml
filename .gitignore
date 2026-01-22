@@ -17,3 +17,7 @@ env/
 # IDEs
 .vscode/
 .idea/
+
+# Project-specific
+claude.md
+CLAUDE.md
