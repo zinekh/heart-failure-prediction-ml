@@ -1,23 +1,23 @@
 # Heart Failure Prediction ML
 
-This project implements a Machine Learning pipeline to predict the presence of heart disease in patients based on medical attributes.
+**Students**: Zineddine CHALEKH, Soufiane EZZEMANY
 
-## Goal
-Binary Classification of Heart Disease (0: Normal, 1: Heart Disease) using the [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction).
+## Project objective
 
-## Results
-We achieved **~90% Accuracy** on the test set with both models:
-- **Logistic Regression**: 90% Accuracy (Preferred for interpretability)
-- **Random Forest**: 90% Accuracy
+This project aims to predict the presence of heart disease in patients based on their medical data. This is a **binary classification** problem:
+- Class 0: No heart disease (Normal)
+- Class 1: Heart disease present
 
-## How to Run
+The project uses the [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) and implements multiple Machine Learning algorithms to compare their performance.
 
-1.  **Setup Environment**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    ```
+## How to run
 
-2.  **Run Notebook**
-    Open `heart_failure_prediction.ipynb` in Jupyter or VS Code and run all cells.
+1. **Setup environment**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+2. **Run notebook**
+   Open `heart_failure_prediction.ipynb` in Jupyter or VS Code and run all cells.
